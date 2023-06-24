@@ -6,3 +6,5 @@ for force crash - call OutputDebugStringA("*") not under debugger.
 (the DbgView64Crash.exe simply do this, nothing more, work when `Capture Win32` enabled)
 
 who can found exactly reason and source place of crash ?
+
+"Capture Kernel" also must be enabled - and need re-run dbgview64 after it will be enabled (if disabled at start)
